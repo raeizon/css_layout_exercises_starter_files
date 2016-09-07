@@ -2,24 +2,24 @@ main {
   font-size: 0;
 }
 
-.box-parent {
-	width: 800px;
-	margin-top: 90px;
-	margin-left: auto;
-	margin-right: auto;
-}
-
-.centered {
+.center {
 	text-align: center;
 }
 
-.box {
-	border: 1px solid black;
-	display: inline-block;
+.box-parent {
+	max-width: 800px;
+	margin-top: 100px;
+	margin-right: auto;
+	margin-left: auto;
 }
 
-.box_half {
-	width: 50%;
+.box {
+	display: inline-block;
+	border: 1px solid black;
+}
+
+.box-half {
+	width:	50%;
 	height: 200px;
 }
 
@@ -44,6 +44,6 @@ main {
 	background-color: black;
 }
 
-.yellow {
-	background-color: yellow;
+.orange {
+	background-color: orange;
 }
